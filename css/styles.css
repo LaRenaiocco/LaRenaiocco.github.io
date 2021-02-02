@@ -44,9 +44,14 @@
 #clown {
   max-width: 150px;
 }
-.star {
-  max-width: 10px;
+.project-image-div {
+  text-align: center;
 }
+
+.project-image {
+  max-width: 500px;
+}
+
 *,
 *::before,
 *::after {
