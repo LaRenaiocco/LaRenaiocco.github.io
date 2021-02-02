@@ -50,10 +50,12 @@
 }
 .project-image-div {
   text-align: center;
+  /* height: 350px */
 }
 
 .project-image {
-  max-width: 500px;
+  max-width: 700px;
+
 }
 
 *,
@@ -6368,6 +6370,15 @@ button.bg-dark:focus {
   display: inline-flex !important;
 }
 
+@media (min-width: 300px) {
+  .project-image {
+    width: 300px;
+  }
+
+  #comm-lib {
+    width: 200px;
+  }
+}
 @media (min-width: 576px) {
   .d-sm-none {
     display: none !important;
@@ -6406,6 +6417,14 @@ button.bg-dark:focus {
   }
 }
 @media (min-width: 768px) {
+  .project-image {
+    width: 500px;
+  }
+
+  #comm-lib {
+    width: 300px;
+  }
+
   .d-md-none {
     display: none !important;
   }
