@@ -44,6 +44,10 @@
 #clown {
   max-width: 150px;
 }
+
+#comm-lib {
+  max-width: 350px;
+}
 .project-image-div {
   text-align: center;
 }
